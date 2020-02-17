@@ -11,7 +11,7 @@
 			<div class="profile-pic">
 				<img src="img/profile.jpg" alt=""/>
 			</div>
-			<h1 class="title1 mini-hero-title">Hi, i'm <strong>James Rex!</strong></h1>
+			<h1 class="title1 mini-hero-title">Hi, i'm <strong>Cecil Rex!</strong></h1>
 			<h2 class="title2 mini-hero-subtitle">Designer & Web Developer</h2>			
 		</div>
 	</div>
