@@ -1,895 +1,623 @@
-<!-- / Header
-================================================== -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Main Content
-================================================== -->
-<section id="body" class="">	
+    <title>MeetMe - Resume Website Template</title>
 
-	<!-- Section: Mini Hero -->
-	<div class="section-mini-hero" id="hero1" style="background-image: url('img/bg2.jpg');">
-		<div class="container">
-			<div class="profile-pic">
-				<img src="img/profile.jpg" alt=""/>
-			</div>
-			<h1 class="title1 mini-hero-title">Hi, i'm <strong>Cecil Rex!</strong></h1>
-			<h2 class="title2 mini-hero-subtitle">Designer & Web Developer</h2>			
-		</div>
-	</div>
-	<!-- /Section: Mini Hero -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Menu CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/menu_sideslide.css">
+    <!-- Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slide-style.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
-	<!-- Section: About  -->
-	<div class="section-about" id="about">
-		<div class="container">
-			<!-- Section Title -->
-			<h2 class="title-of-section title-border">About Me</h2>
-			<!-- /Section Title -->	
-		</div>
-		<div class="container about-container">
-			<div class="row contrast">
-				<!-- Left Column -->
-				<div class="col-sm-6 col-no-padding">
-					<div class="about-picture" id="about-picture">
-						<img src="img/about-image.jpg" alt="" class="responsive-image">
-					</div>
-				</div>			
-				<!-- /Left Column -->
-				<!-- Right Column -->
-				<div class="col-sm-6"> 
-					<div class="padding-box">
-						<h1 class="title2">Who i am</h1>
-						<p>Turpis, sit amet iaculis dui consectetur at. Cras sagittis molestie orci. Suspendisse ut laoreet mi. Phasellus eu tortor vehicula, blandit enim eu, auctor massa. Nulla ultricies tortor dolor, sit amet suscipit enim condimentum id. Etiam eget iaculis tellus. Varius sit amet.</p>		
-						<!-- row -->
-						<div class="row">
-							<!-- col -->
-							<div class="col-sm-6">
-								<h3 class="title3">Address</h3>
-								<p>123 Sility, South Corner Street – Melborne – Australia</p>
-							</div>
-							<!-- /col -->
-							<!-- col -->
-							<div class="col-sm-6">
-								<h3 class="title3">Email</h3>
-								<p>dotrex@dotrex.co</p>
-							</div>
-							<!-- /col -->
-						</div>	
-						<!-- /row -->
+  </head>
+  <body>
 
-						<!-- row -->
-						<div class="row">
-							<!-- col -->
-							<div class="col-sm-6">
-								<h3 class="title3">Phone</h3>
-								<p>123 456 789 0</p>
-							</div>
-							<!-- /col -->
-							<!-- col -->
-							<div class="col-sm-6">
-								<h3 class="title3">Find me On</h3>
-								<!-- Social Icons -->
-			                    <div class="social-icons">
-			                        <a href="#"><i class="fa fa-instagram"></i></a>
-			                        <a href="#"><i class="fa fa-facebook"></i></a>
-			                        <a href="#"><i class="fa fa-twitter"></i></a>
-			                        <a href="#"><i class="fa fa-linkedin"></i></a>
-			                        <a href="#"><i class="fa fa-youtube"></i></a>
-			                    </div>
-			                    <!-- /Social Icons -->
-							</div>
-							<!-- /col -->
-							
-						</div>	
-						<!-- /row -->					
-					</div>
-				</div>
-				<!-- /Right Column -->
-			</div>
-		</div>
-	</div>	
-	<!-- / Section: About  -->
-
-	<!-- SECTION: Features -->
-	<div class="section section-features" id="features">
-		<div class="container">	
-			<!-- Features -->
-			<div class="row">				
-				<!-- item -->
-				<div class="col-sm-3">
-					<div class="feature-item">
-						<div class="feature-icon">
-							<i class="fa fa-photo"></i>
-						</div>
-						<h2 class="feature-title">Graphic Design</h2>
-						<div class="feature-description">
-							<p>Projects with concept.</p>
-						</div>
-					</div>					
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="col-sm-3">
-					<div class="feature-item">
-						<div class="feature-icon">
-							<i class="fa fa-laptop"></i>
-						</div>
-						<h2 class="feature-title">Web Design</h2>
-						<div class="feature-description">
-							<p>Projects with concept.</p>
-						</div>
-					</div>					
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="col-sm-3">
-					<div class="feature-item">
-						<div class="feature-icon">
-							<i class="fa fa-globe"></i>
-						</div>
-						<h2 class="feature-title">Web Development</h2>
-						<div class="feature-description">
-							<p>Projects with concept.</p>
-						</div>
-					</div>					
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="col-sm-3">
-					<div class="feature-item">
-						<div class="feature-icon">
-							<i class="fa fa-line-chart"></i>
-						</div>
-						<h2 class="feature-title">Social Media</h2>
-						<div class="feature-description">
-							<p>Projects with concept.</p>
-						</div>
-					</div>					
-				</div>
-				<!-- /item -->
-			</div>
-			<!-- /features -->	
-		</div>
-	</div>
-	<!-- /SECTION: Features -->	
-	
-
-	<!-- Section: Portfolio -->
-	<div class="section section-portfolio contrast" id="portfolio">
-		<div class="container">
-			<!-- Section Title -->
-			<h2 class="title-of-section title-border">Portfolio</h2>
-			<!-- /Section Title -->	
-
-			<!-- Categories -->
-			<div class="portfolio-filter">
-				<div class="" id="filter-header">
-					<span class="portfolio-filter-title">Filter: </span>
-					<a href="#" class="category-item category-item-active" data-filter="filter-item">All</a>
-					<a href="#" class="category-item" data-filter="cat-featured">Featured</a>
-					<a href="#" class="category-item" data-filter="cat-cultural">Cultural</a>
-					<a href="#" class="category-item" data-filter="cat-business">Business</a>
-				</div>
-			</div>
-			<!-- Categories -->
-
-			<!-- portfolio list -->
-			<div class="portfolio-list row" id="filter-container">
-
-				<!-- item -->
-				<div class="col-sm-4">
-					<div class="portfolio-item filter-item cat-cultural cat-featured">
-						<a href="img/portfolio/p1.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('img/portfolio/p1.jpg');">
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<!-- portfolio name -->
-									<h2 class="portfolio-title">Project Title</h2>
-									<!-- /portfolio name -->
-									<span class="see-more">Cultural, Featured</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-				</div>				
-				<!-- /item -->
-
-				<!-- item -->
-				<div class="col-sm-4">
-					<div class="portfolio-item filter-item cat-business cat-featured">
-						<a href="img/portfolio/p2.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('img/portfolio/p2.jpg');">
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<!-- portfolio name -->
-									<h2 class="portfolio-title">Project Title</h2>
-									<!-- /portfolio name -->
-									<span class="see-more">Cultural, Featured</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-				</div>				
-				<!-- /item -->
-
-				<!-- item -->
-				<div class="col-sm-4">
-					<div class="portfolio-item filter-item cat-cultural cat-featured">
-						<a href="img/portfolio/p3.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('img/portfolio/p3.jpg');">
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<!-- portfolio name -->
-									<h2 class="portfolio-title">Project Title</h2>
-									<!-- /portfolio name -->
-									<span class="see-more">Cultural, Featured</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-				</div>				
-				<!-- /item -->
-
-				<!-- item -->
-				<div class="col-sm-4">
-					<div class="portfolio-item filter-item cat-business">
-						<a href="img/portfolio/p4.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('img/portfolio/p4.jpg');">
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<!-- portfolio name -->
-									<h2 class="portfolio-title">Project Title</h2>
-									<!-- /portfolio name -->
-									<span class="see-more">Cultural, Featured</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-				</div>				
-				<!-- /item -->
-
-				<!-- item -->
-				<div class="col-sm-4">
-					<div class="portfolio-item filter-item cat-business">
-						<a href="img/portfolio/p5.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('img/portfolio/p5.jpg');">
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<!-- portfolio name -->
-									<h2 class="portfolio-title">Project Title</h2>
-									<!-- /portfolio name -->
-									<span class="see-more">Cultural, Featured</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-				</div>				
-				<!-- /item -->
-
-				<!-- item -->
-				<div class="col-sm-4">
-					<div class="portfolio-item filter-item cat-cultural cat-featured">
-						<a href="img/portfolio/p6.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('img/portfolio/p6.jpg');">
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<!-- portfolio name -->
-									<h2 class="portfolio-title">Project Title</h2>
-									<!-- /portfolio name -->
-									<span class="see-more">Cultural, Featured</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-				</div>				
-				<!-- /item -->
-
-				<!-- item -->
-				<div class="col-sm-4">
-					<div class="portfolio-item filter-item cat-cultural">
-						<a href="img/portfolio/p7.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('img/portfolio/p7.jpg');">
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<!-- portfolio name -->
-									<h2 class="portfolio-title">Project Title</h2>
-									<!-- /portfolio name -->
-									<span class="see-more">Cultural, Featured</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-				</div>				
-				<!-- /item -->
-
-				<!-- item -->
-				<div class="col-sm-4">
-					<div class="portfolio-item filter-item cat-business">
-						<a href="img/portfolio/p8.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('img/portfolio/p8.jpg');">
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<!-- portfolio name -->
-									<h2 class="portfolio-title">Project Title</h2>
-									<!-- /portfolio name -->
-									<span class="see-more">Cultural, Featured</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-				</div>				
-				<!-- /item -->
-
-				<!-- item -->
-				<div class="col-sm-4">
-					<div class="portfolio-item filter-item cat-cultural cat-featured">
-						<a href="img/portfolio/p9.jpg" class="portfolio-thumbnail fancybox" rel="portfolio" title="Description here" style="background-image: url('img/portfolio/p9.jpg');">
-							<!-- portfolio-description -->
-							<div class="portfolio-description-wrapper">
-								<div class="portfolio-description">
-									<!-- portfolio name -->
-									<h2 class="portfolio-title">Project Title</h2>
-									<!-- /portfolio name -->
-									<span class="see-more">Cultural, Featured</span>
-								</div>
-							</div>
-							<!-- /portfolio-description -->
-						</a>
-					</div>
-				</div>				
-				<!-- /item -->
-
-			</div>
-			<!-- /portfolio list -->		
-		</div>
-	</div>	
-	<!-- /Section: portfolio -->
-
-	<!-- Section: Resume Education -->
-	<div class="section" id="education">
-		<div class="container">
-			<!-- Section Title -->
-			<h2 class="title-of-section title-border">Education</h2>
-			<!-- /Section Title -->		
-			<!-- row -->
-			<div class="row">				
-				<!-- item -->
-				<div class="col-sm-4">
-					<!-- box -->
-					<div class="resume-box">
-						<p class="resume-item-ico"><i class="fa fa-bank"></i></p>
-						<h2 class="title2 resume-item-title1">Graphic Design</h2>
-						<h3 class="title3 resume-item-title2">St. Patrick University (4 Years Course)</h3>
-						<p>This is a education field. Fill it with your training and your academic experiences.</p>
-					</div>
-					<!-- box -->
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="col-sm-4">
-					<!-- box -->
-					<div class="resume-box">
-						<p class="resume-item-ico"><i class="fa fa-bank"></i></p>
-						<h2 class="title2 resume-item-title1">Master of Web Design</h2>
-						<h3 class="title3 resume-item-title2">St. Patrick University (2 Years Course)</h3>
-						<p>This is a education field. Fill it with your training and your academic experiences.</p>
-					</div>
-					<!-- box -->
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="col-sm-4">
-					<!-- box -->
-					<div class="resume-box">
-						<p class="resume-item-ico"><i class="fa fa-bank"></i></p>
-						<h2 class="title2 resume-item-title1">User Interaction</h2>
-						<h3 class="title3 resume-item-title2">St. Patrick University (2 Years Course)</h3>
-						<p>This is a education field. Fill it with your training and your academic experiences.</p>
-					</div>
-					<!-- box -->
-				</div>
-				<!-- /item -->
-			</div>
-			<!-- /row -->
-		</div>
-	</div>
-	<!-- /Section: Resume Education -->	
-
-	<!-- Section: Resume Experience -->
-	<div class="section contrast" id="experience">
-		<div class="container">
-			<!-- Section Title -->
-			<h2 class="title-of-section title-border">Experience</h2>
-			<!-- /Section Title -->	
-			<!-- row -->
-			<div class="row">				
-				<!-- item -->
-				<div class="col-sm-4">
-					<!-- box -->
-					<div class="resume-box">
-						<p class="resume-item-ico"><i class="fa fa-flag"></i></p>
-						<h2 class="title2 resume-item-title1">DotRex Co.</h2>
-						<h3 class="title3 resume-item-title2">June 2012 – Current</h3>
-						<p>This is a professional field. Fill it with your work experiences.</p>
-					</div>
-					<!-- box -->
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="col-sm-4">
-					<!-- box -->
-					<div class="resume-box">
-						<p class="resume-item-ico"><i class="fa fa-flag"></i></p>
-						<h2 class="title2 resume-item-title1">Black Tie Corp.</h2>
-						<h3 class="title3 resume-item-title2">Jan 2010 – Apr 2012</h3>
-						<p>This is a professional field. Fill it with your work experiences.</p>
-					</div>
-					<!-- box -->
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="col-sm-4">
-					<!-- box -->
-					<div class="resume-box">
-						<p class="resume-item-ico"><i class="fa fa-flag"></i></p>
-						<h2 class="title2 resume-item-title1">Manada</h2>
-						<h3 class="title3 resume-item-title2">Jan 2010 – Apr 2012</h3>
-						<p>This is a professional field. Fill it with your work experiences.</p>
-					</div>
-					<!-- box -->
-				</div>
-				<!-- /item -->
-			</div>
-			<!-- /row -->
-		</div>
-	</div>
-	<!-- /Section: Resume Experience -->	
-
-	<!-- Section: Image background-->
-	<div class="section contrast contrast-with-image text-center" style="background-image: url('img/bg2.jpg')">
-		<div class="container">
-			<h2 class="title1">Looking for a Professional?</h2>
-			<p>Request a free quote! I will be happy to help.</p>
-			<a href="" class="btn btn-default">Click here</a> <a href="" class="btn btn-default">Or Here</a>
-		</div>
-	</div>
-	<!-- / Section: Image Background-->
-
-	<!-- Double Section -->
-	<div class="section" id="testimonials">
-		<div class="container">
-			<!-- row -->
-			<div class="row">
-				<!-- Col -->
-				<div class="col-sm-6">
-					<!-- Section: Testimonials -->
-					<div class="section-testimonials">
-
-						<!-- Section Title -->
-						<h2 class="title-of-section">Testimonials</h2>
-						<!-- /Section Title -->
-
-						<!-- Testimonials -->
-						<div class="testimonials">
-							<!-- Testimonial Slides -->
-							<div class="testimonial-slides" id="testimonial-carousel">
-								<!-- item -->
-								<div class="testimonial-item">
-									<!-- Testimonial Content -->
-									<div class="testimonial-content">
-										<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat malesuada aliquet. Morbi vulputate nisl eget adipiscing consequat. Cras arcu tortor, ornare vel libero et, sagittis adipiscing leo. Aenean eget."</p>
-									</div>						
-									<!-- /Testimonial Content -->	
-									<!-- Testimonial Author -->
-									<div class="testimonial-credits">
-										<!-- picture -->
-										<div class="testimonial-picture">
-											<img src="img/team2.jpg" alt=""/>
-										</div>							
-										<!-- /picture -->
-										<p class="testimonial-author">Melissa Alvarez</p>
-										<p class="testimonial-firm">Trexus Co.</p>
-									</div>
-									<!-- /Testimonial Author -->								
-								</div>
-								<!-- /item -->
-								<!-- item -->
-								<div class="testimonial-item">
-									<!-- Testimonial Content -->
-									<div class="testimonial-content">
-										<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat malesuada aliquet. Morbi vulputate nisl eget adipiscing consequat. Cras arcu tortor, ornare vel libero et, sagittis adipiscing leo. Aenean eget."</p>
-									</div>						
-									<!-- /Testimonial Content -->	
-									<!-- Testimonial Author -->
-									<div class="testimonial-credits">
-										<!-- picture -->
-										<div class="testimonial-picture">
-											<img src="img/team1.jpg" alt=""/>
-										</div>							
-										<!-- /picture -->
-										<p class="testimonial-author">John Rex</p>
-										<p class="testimonial-firm">DotRex Co.</p>
-									</div>
-									<!-- /Testimonial Author -->								
-								</div>
-								<!-- /item -->
-								<!-- item -->
-								<div class="testimonial-item">
-									<!-- Testimonial Content -->
-									<div class="testimonial-content">
-										<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consequat malesuada aliquet. Morbi vulputate nisl eget adipiscing consequat. Cras arcu tortor, ornare vel libero et, sagittis adipiscing leo. Aenean eget."</p>
-									</div>						
-									<!-- /Testimonial Content -->	
-									<!-- Testimonial Author -->
-									<div class="testimonial-credits">
-										<!-- picture -->
-										<div class="testimonial-picture">
-											<img src="img/team3.jpg" alt=""/>
-										</div>							
-										<!-- /picture -->
-										<p class="testimonial-author">Jhonathan Smith</p>
-										<p class="testimonial-firm">RedWings Co.</p>
-									</div>
-									<!-- /Testimonial Author -->								
-								</div>
-								<!-- /item -->
-							</div>
-							<!-- Testimonial Slides -->
-						</div>
-						<!-- /testimonials -->
-					</div>
-					<!-- /Section: Testimonials -->
-				</div>
-				<!-- /Col -->
-				<!-- Col -->
-				<div class="col-sm-6">
-					<!-- Section: Skills -->
-					<div class="section-skills">
-
-						<!-- Section Title -->
-						<h2 class="title-of-section text-right">Skills</h2>
-						<!-- /Section Title -->
-
-						<!-- Item Title -->
-						<h3 class="title4"><i class="fa fa-users"></i>&nbsp;&nbsp; Professional Skills</h3>
-						<!-- /Item Title -->
-						<!-- Skils List -->						
-						<ul class="skills-list">
-		                    <!-- item-list -->
-		                    <li>
-		                      <div class="progress">
-		                        <div class="progress-bar" role="progressbar" data-percent="70%" style="width: 70%;">
-		                            <span class="sr-only">70% Complete</span>
-		                        </div>
-		                        <span class="progress-type">Comunication</span>
-		                        <span class="progress-completed">70%</span>
-		                      </div>
-		                    </li>
-		                    <!-- /item list -->
-		                    <!-- item-list -->
-		                    <li>
-		                      <div class="progress">
-		                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="85%" style="width: 85%;">
-		                            <span class="sr-only">85% Complete</span>
-		                        </div>
-		                        <span class="progress-type">Leadership</span>
-		                        <span class="progress-completed">85%</span>
-		                      </div>
-		                    </li>
-		                    <!-- /item list -->
-		                    <!-- item-list -->
-		                    <li>
-		                      <div class="progress" title="Doing my best!">
-		                        <div class="progress-bar progress-bar-3" role="progressbar" data-percent="85%" style="width: 85%;">
-		                            <span class="sr-only">85% Complete</span>
-		                        </div>
-		                        <span class="progress-type">Confidence</span>
-		                        <span class="progress-completed">85%</span>
-		                      </div>
-		                    </li>
-		                    <!-- /item list -->
-		                </ul>
-						<!-- /Skils List -->
-
-						<!-- Item Title -->
-						<h3 class="title4"><i class="fa fa-laptop"></i>&nbsp;&nbsp; Software Skills</h3>
-						<!-- /Item Title -->
-						<!-- Skils List -->						
-						<ul class="skills-list">
-		                    <!-- item-list -->
-		                    <li>
-		                      <div class="progress">
-		                        <div class="progress-bar" role="progressbar" data-percent="70%" style="width: 70%;">
-		                            <span class="sr-only">70% Complete</span>
-		                        </div>
-		                        <span class="progress-type">Adobe Photoshop</span>
-		                        <span class="progress-completed">70%</span>
-		                      </div>
-		                    </li>
-		                    <!-- /item list -->
-		                    <!-- item-list -->
-		                    <li>
-		                      <div class="progress">
-		                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="85%" style="width: 85%;">
-		                            <span class="sr-only">85% Complete</span>
-		                        </div>
-		                        <span class="progress-type">Adobe Illustrator</span>
-		                        <span class="progress-completed">85%</span>
-		                      </div>
-		                    </li>
-		                    <!-- /item list -->
-		                    <!-- item-list -->
-		                    <li>
-		                      <div class="progress" title="Doing my best!">
-		                        <div class="progress-bar progress-bar-3" role="progressbar" data-percent="85%" style="width: 85%;">
-		                            <span class="sr-only">85% Complete</span>
-		                        </div>
-		                        <span class="progress-type">Adobe Pemiere</span>
-		                        <span class="progress-completed">85%</span>
-		                      </div>
-		                    </li>
-		                    <!-- /item list -->
-		                    <!-- item-list -->
-		                    <li>
-		                      <div class="progress">
-		                        <div class="progress-bar" role="progressbar" data-percent="50%" style="width: 50%;">
-		                            <span class="sr-only">50% Complete</span>
-		                        </div>
-		                        <span class="progress-type">Adobe Fireworks</span>
-		                        <span class="progress-completed">50%</span>
-		                      </div>
-		                    </li>
-		                    <!-- /item list -->
-		                </ul>
-						<!-- /Skils List -->
-					</div>
-					<!-- /Section: Skills -->
-				</div>
-				<!-- /Col -->
-			</div>
-			<!-- /row -->
-		</div>
-	</div>
-	<!-- /Double Section -->
-	
-	<!-- Section: Clients -->	
-	<div class="section contrast" id="clients">
-		<div class="container">			
-			<!-- Section Title -->
-			<h2 class="title-of-section title-border">Clients</h2>
-			<!-- /Section Title -->
-
-			<!-- Clients Carousel List -->
-			<div class="clients-carousel owl-carousel" id="clients-carousel">
-				<!-- item -->
-				<div class="clients-carousel-item">
-					<img src="img/clients/1.png" alt="">
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="clients-carousel-item">
-					<img src="img/clients/2.png" alt="">
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="clients-carousel-item">
-					<img src="img/clients/3.png" alt="">
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="clients-carousel-item">
-					<img src="img/clients/4.png" alt="">
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="clients-carousel-item">
-					<img src="img/clients/5.png" alt="">
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="clients-carousel-item">
-					<img src="img/clients/6.png" alt="">
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="clients-carousel-item">
-					<img src="img/clients/7.png" alt="">
-				</div>
-				<!-- /item -->
-				<!-- item -->
-				<div class="clients-carousel-item">
-					<img src="img/clients/8.png" alt="">
-				</div>
-				<!-- /item -->
-			</div>
-			<!-- / Clients Carousel List -->
-		</div>			
-	</div>
-	<!-- /Section: Clients -->
-
-	<!-- Section: Contact -->		
-	<div class="section section-contact" id="contact">
-		<div class="container">
-			<!-- Section Title -->
-			<h2 class="title-of-section title-border">Get in Touch</h2>
-			<!-- /Section Title -->
-			<!-- row -->
-			<div class="row">
-				<!-- col -->
-				<div class="col-sm-5">
-					<!-- box -->
-					<div class="contact-box">
-						<h4 class="title4">Address: </h4>
-						<p>451 Lorem Ipsum, London - Uk</p>
-						<h4 class="title4">Phone: </h4>
-						<p>+61 3 8376 6284</p>
-						<h4 class="title4">Mail: </h4>
-						<p>john.Rex@dotrex.com</p>
-						<!-- Social Icons -->
-	                    <div class="social-icons">
-	                        <a href="#"><i class="fa fa-instagram"></i></a>
-	                        <a href="#"><i class="fa fa-facebook"></i></a>
-	                        <a href="#"><i class="fa fa-twitter"></i></a>
-	                        <a href="#"><i class="fa fa-linkedin"></i></a>
-	                        <a href="#"><i class="fa fa-youtube"></i></a>
-	                    </div>
-	                    <!-- /Social Icons -->
-					</div>
-					<!-- /box -->					
-				</div>
-				<!-- /col -->
-				<!-- col -->
-				<div class="col-sm-7">
-					<!-- form -->
-					<form action="" id="contactForm">
-						<!-- item -->            
-						<div class="form-group">
-						  <input type="text" class="form-control required" id="name" name="name" placeholder="Name*" required>
-						</div>    
-						<!-- /item -->
-						<!-- item -->        
-						<div class="form-group">
-						  <input type="email" class="form-control required" id="email" name="email" placeholder="Email" required>
-						</div>    
-						<!-- /item --> 
-						<!-- item -->            
-						<div class="form-group">
-						  <input type="text" class="form-control required" id="subject" name="subject" placeholder="Subject" required>
-						</div>    
-						<!-- /item -->
-						<!-- item -->            
-						<div class="form-group">
-						  <textarea class="form-control required" name="message" id="message" placeholder="Message" required></textarea>
-						</div>    
-						<!-- /item --> 
-						<!-- item -->            
-						<div class="form-group form-send">
-						  <input type="submit" value="enviar" class="btn btn-default btn3">
-						</div>    
-						<!-- /item -->                
-					</form>
-					<!-- /form -->
-				</div>
-				<!-- /col -->
-			</div>
-			<!-- /row -->
-		</div>
-	</div>
-	<!-- /Section: Contact -->	
-
-	<!-- SECTION: Map -->
-	<div class="section-map">
-		<div class="map" id="map">			
-		    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3026.6617384330816!2d-73.9992296355825!3d40.65938630000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ae9ec6e2cb3%3A0x39c56782050e447a!2s27th+St%2C+Brooklyn%2C+NY+11232%2C+USA!5e0!3m2!1spt-BR!2sbr!4v1431959746282" height="350"></iframe>
-		</div>
-	</div>
-	<!-- /SECTION: Map -->	
-
-
-</section>
-<!-- /Main Content
-================================================== -->
-
-<!-- Contact Form - Ajax Messages
-========================================================= -->
-<!-- Form Sucess -->
-<div class="form-result modal-wrap" id="contactSuccess">
-  <div class="modal-bg"></div>
-  <div class="modal-content">
-    <h4 class="modal-title"><i class="fa fa-check-circle"></i> Success!</h4>
-    <p>Your message has been sent to us.</p>
-  </div>
-</div>
-<!-- /Form Sucess -->
-<!-- form-error -->
-<div class="form-result modal-wrap" id="contactError">
-  <div class="modal-bg"></div>
-  <div class="modal-content">
-    <h4 class="modal-title"><i class="fa fa-times"></i> Error</h4>
-    <p>There was an error sending your message.</p>
-  </div>
-</div>
-<!-- /form-error -->
-<!-- / Contact Form - Ajax Messages
-========================================================= -->
-
-<!-- Footer
-================================================== -->
-<footer id="footer">
-    <div class="secondary-footer">
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
         <div class="container">
-            <!-- row -->
-            <div class="row">
-                <!-- col -->
-                <div class="col-sm-6">
-                    <p class="footer-quote"><strong>"The power of imagination makes us infinite."</strong> <i>- John Muir</i></p>
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
+              <li class="nav-item active">
+                <a class="nav-link" href="#hero-area">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">
+                  Services
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">
+                  Resume
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolios">
+                  Work
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Start -->
+        <ul class="onepage-nev mobile-menu">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#resume">resume</a>
+          </li>
+          <li>
+            <a href="#portfolio">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <!-- Mobile Menu End -->
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+              <div class="contents">
+                <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi This is</h5>
+                <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Tom Saulnier</h2>
+                <p class="script-font wow fadeInUp" data-wow-delay="0.6s">Front-end Web Developer and Graphic Designer</p>
+                <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
+                  <li>
+                    <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a class="linkedin" href="#"><i class="icon-social-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a class="google" href="#"><i class="icon-social-google"></i></a>
+                  </li>
+                </ul>
+                <div class="header-button wow fadeInUp" data-wow-delay="1s">
+                  <a href="#" class="btn btn-common">Get a Free Quote</a>
                 </div>
-                <!-- /col -->
-                <!-- col -->
-                <div class="col-sm-6 text-right">
-                   
-                </div>
-                <!-- /col -->
+              </div>
             </div>
-            <!-- /row -->
-        </div>        
-    </div>  
-</footer>
-<!-- /Footer
-================================================== -->
+          </div>
+        </div>
+      </div>
+      <!-- Hero Area End -->
 
+    </header>
+    <!-- Header Area wrapper End -->
 
-<!-- >> JS
-============================================================================== -->
+    <!-- About Section Start -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
+              <img class="img-fluid" src="assets/img/about/about-1.jpg" alt="">
+            </div>
+          </div> 
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
+              <h3>Hi Guys!</h3>
+              <p>Est diam venenatis arcu lacus ad. Duis quis eros. Cursus et rutrum eleifend sollicitudin lacinia justo id turpis. Nec convallis integer. Odio eget duis. Nulla aenean et. Blandit varius sollicitudin. Pellentesque leo primis neque urna magnis. Elit ut sollicitudin. Et est a nam dolores eget itaque sagittis et parturient duis est eleifend sociis rutrum odio viverra integer.</p>
+              <div class="about-profile">
+                <ul class="admin-profile">
+                  <li><span class="pro-title"> Name </span> <span class="pro-detail">Tom Saulnier</span></li>
+                  <li><span class="pro-title"> Age </span> <span class="pro-detail">25 Years</span></li>
+                  <li><span class="pro-title"> Experience </span> <span class="pro-detail">4 Years</span></li>
+                  <li><span class="pro-title"> Country </span> <span class="pro-detail">USA</span></li>
+                  <li><span class="pro-title"> Location </span> <span class="pro-detail">San Francisco, CA</span></li>
+                  <li><span class="pro-title"> e-mail </span> <span class="pro-detail">email@example.com</span></li>
+                  <li><span class="pro-title"> Phone </span> <span class="pro-detail">+ (00) 123 456 789</span></li>
+                  <li><span class="pro-title"> Freelance </span> <span class="pro-detail">Available</span></li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
+              <a href="#" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a>
+            </div>
+          </div>   
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="vendor/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="vendor/validate.js"></script>
-<!-- Owl Caroulsel -->
-<script src="vendor/owl.carousel/owl-carousel/owl.carousel.js"></script>
-<!-- Waypoints -->
-<script src="vendor/waypoints.min.js"></script>
-<!-- Fancybox -->
-<script src="vendor/fancybox/jquery.fancybox.js"></script>
-<!-- Owl Caroulsel -->
-<script src="vendor/owl.carousel/owl-carousel/owl.carousel.js"></script>
-<!-- Images Loaded-->
-<script src="vendor/imagesloaded.pkgd.min.js"></script>
-<!-- Double Tap to Go -->
-<script src="vendor/doubletaptogo.min.js"></script>
-<!-- Cross-browser -->
-<script src="vendor/cross-browser.js"></script>
-<!-- Main Scripts -->
-<script src="js/main.js"></script>
+    <!-- Services Section Start -->
+    <section id="services" class="services section-padding">
+      <h2 class="section-title wow flipInX" data-wow-delay="0.4s">What I do</h2>
+      <div class="container">
+        <div class="row">
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.3s">
+              <div class="icon">
+                <i class="icon-grid"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Front-end Development</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+              <div class="icon">
+                <i class="icon-layers"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Graphic Design</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.9s">
+              <div class="icon">
+                <i class="icon-briefcase"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Business Branding</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-3 col-xs-12">
+            <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
+              <div class="icon">
+                <i class="icon-bubbles"></i>
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Consultancy</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
 
+    <!-- Resume Section Start -->
+    <div id="resume" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="education wow fadeInRight" data-wow-delay="0.3s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-graduation"></i>
+                  <h2 class="timelin-title">Education</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Bsc In CSE - Yale University</h3>
+                    <span>2012 - 2016</span>
+                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Higher Secondary School - San Francisco College</h3>
+                    <span>2010 - 2012</span>
+                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Secondary School - Labratory High School</h3>
+                    <span>2005 - 2010</span>
+                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="experience wow fadeInRight" data-wow-delay="0.6s">
+              <ul class="timeline">
+                <li>
+                  <i class="icon-briefcase"></i>
+                  <h2 class="timelin-title">Experience</h2>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Art Director - Tesla Inc.</h3>
+                    <span>Jan 2018 - Present</span>
+                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">UX/UI Designer - Samsung</h3>
+                    <span>Nov 2016 - Dec 2017</span>
+                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="content-text">
+                    <h3 class="line-title">Intern UI Designer - UIdeck</h3>
+                    <span>Mar 2015 - Oct 2016</span>
+                    <p class="line-text">Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Resume Section End -->
 
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-  <script src="vendor/html5shiv.js"></script>
-  <script src="vendor/respond.min.js"></script>
-<![endif]-->
-<!-- >> /JS
-============================================================================= -->
-</body>
+    <!-- Portfolio Section -->
+    <section id="portfolios" class="section-padding">
+      <!-- Container Starts -->
+      <div class="container">        
+        <h2 class="section-title wow flipInX" data-wow-delay="0.4s">My Remarkable Works</h2>
+        <div class="row">          
+          <div class="col-md-12">
+            <!-- Portfolio Controller/Buttons -->
+            <div class="controls text-center">
+              <a class="filter active btn btn-common" data-filter="all">
+                All 
+              </a>
+              <a class="filter btn btn-common" data-filter=".design">
+                Design 
+              </a>
+              <a class="filter btn btn-common" data-filter=".development">
+                Development
+              </a>
+              <a class="filter btn btn-common" data-filter=".print">
+                Print 
+              </a>
+            </div>
+            <!-- Portfolio Controller/Buttons Ends-->
+          </div>
+
+          <!-- Portfolio Recent Projects -->
+          <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-1.jpg" alt="" />  
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-1.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix design print">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-2.jpg" alt=""/> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-2.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-3.jpg" alt=""/> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-3.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-4.jpg" alt="" /> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-4.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-5.jpg" alt="" /> 
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-5.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
+              <div class="portfolio-item">
+                <div class="shot-item">
+                  <img src="assets/img/gallery/img-6.jpg" alt=""/>
+                  <div class="overlay">
+                    <div class="icons">
+                      <a class="lightbox preview" href="assets/img/gallery/img-6.jpg">
+                        <i class="icon-eye"></i>
+                      </a>
+                      <a class="link" href="#">
+                        <i class="icon-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Container Ends -->
+    </section>
+    <!-- Portfolio Section Ends --> 
+
+    <!-- Counter Area Start-->
+    <section class="counter-section section-padding">
+      <div class="container">
+        <div class="row">
+          <!-- Counter Item -->
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="0.3s">
+              <div class="icon"><i class="icon-briefcase"></i></div>
+              <div class="counterUp">250</div>
+              <p>Project Working</p>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="0.6s">
+              <div class="icon"><i class="icon-check"></i></div>
+              <div class="counterUp">950</div>
+              <p>Project Done</p>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="0.9s">
+              <div class="icon"><i class="icon-diamond"></i></div>
+              <div class="counterUp">150</div>
+              <p>Awards Received</p>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-3 col-sm-6 work-counter-widget text-center">
+            <div class="counter wow fadeInDown" data-wow-delay="1.2s">
+              <div class="icon"><i class="icon-heart"></i></div>
+              <div class="counterUp">299</div>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Counter Area End-->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="section-padding">      
+      <div class="contact-form">
+        <div class="container">
+          <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">          
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="contact-block">
+                <h2>Contact Form</h2>
+                <form id="contactForm">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>                                 
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                        <div class="help-block with-errors"></div>
+                      </div> 
+                    </div>
+                     <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group"> 
+                        <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <div class="submit-button">
+                        <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                        <div class="clearfix"></div> 
+                      </div>
+                    </div>
+                  </div>            
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <div class="footer-right-area wow fadeIn">
+                <h2>Contact Address</h2>
+                <div class="footer-right-contact">
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+                    <p>San Francisco, CA</p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <p><a href="mailto:hello@tom.com">hello@tom.com</a></p>
+                    <p><a href="mailto:tomsaulnier@gmail.com">tomsaulnier@gmail.com</a></p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <p><a href="#">+ (00) 123 456 789</a></p>
+                    <p><a href="#">+ (00) 123 344 789</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+            <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34015.943594576835!2d-106.43242624069771!3d31.677719472407432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d90e99d597b%3A0x6cd3eb9a9fcd23f1!2sCourtyard+by+Marriott+Ciudad+Juarez!5e0!3m2!1sen!2sbd!4v1533791187584"></object>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
+              <ul class="social-icon">
+                <li>
+                  <a class="facebook" href="#"><i class="icon-social-facebook"></i></a>
+                </li>
+                <li>
+                  <a class="twitter" href="#"><i class="icon-social-twitter"></i></a>
+                </li>
+                <li>
+                  <a class="instagram" href="#"><i class="icon-social-instagram"></i></a>
+                </li>
+                <li>
+                  <a class="instagram" href="#"><i class="icon-social-linkedin"></i></a>
+                </li>
+                <li>
+                  <a class="instagram" href="#"><i class="icon-social-google"></i></a>
+                </li>
+              </ul>
+              <p>Copyright © 2018 UIdeck All Right Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Go to Top Link -->
+    <a href="#" class="back-to-top">
+      <i class="icon-arrow-up"></i>
+    </a>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>  
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.min.js"></script>
+    <script src="assets/js/map.js"></script>
+      
+  </body>
 </html>
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
